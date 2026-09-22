@@ -2,9 +2,8 @@ import os, asyncio, feedparser, requests
 from telegram import Bot
 import datetime
 
-BOT_TOKEN = os.getenv("8946445146:AAHGOnrbwkOlEm-1mTTBzAD0EdGOoNgaVNE")
-CHANNEL_ID = os.getenv("-1003767927879")
-
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHANNEL_ID = os.getenv("CHANNEL_ID")
 async def main():
     bot = Bot(token=BOT_TOKEN)
     while True:
